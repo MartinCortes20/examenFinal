@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        
+        <item
+            android:id="@+id/nav_theme_ipn"
+            android:icon="@drawable/ic_palette"
+            android:title="Tema IPN (Guinda)" />
+
+        <item
+            android:id="@+id/nav_theme_escom"
+            android:icon="@drawable/ic_palette"
+            android:title="Tema ESCOM (Azul)" />
+
+    </group>
+
+    <item android:title="Acciones">
+        <menu>
+            <item
+                android:id="@+id/nav_clear_history"
+                android:icon="@drawable/ic_delete"
+                android:title="Limpiar historial" />
+        </menu>
+    </item>
+
+</menu>

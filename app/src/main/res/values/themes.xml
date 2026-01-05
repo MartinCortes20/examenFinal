@@ -1,0 +1,26 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Tema IPN (Guinda) - Light -->
+    <style name="Theme.ExamenFinal.IPN" parent="Theme.Material3.Light.NoActionBar">
+        <item name="colorPrimary">@color/ipn_guinda</item>
+        <item name="colorPrimaryVariant">@color/ipn_guinda_dark</item>
+        <item name="colorOnPrimary">@android:color/white</item>
+        <item name="colorSecondary">@color/ipn_guinda_light</item>
+        <item name="colorSecondaryVariant">@color/ipn_guinda</item>
+        <item name="colorOnSecondary">@android:color/white</item>
+        <item name="android:statusBarColor">@color/ipn_guinda</item>
+    </style>
+    
+    <!-- Tema ESCOM (Azul) - Light -->
+    <style name="Theme.ExamenFinal.ESCOM" parent="Theme.Material3.Light.NoActionBar">
+        <item name="colorPrimary">@color/escom_azul</item>
+        <item name="colorPrimaryVariant">@color/escom_azul_dark</item>
+        <item name="colorOnPrimary">@android:color/white</item>
+        <item name="colorSecondary">@color/escom_azul_light</item>
+        <item name="colorSecondaryVariant">@color/escom_azul</item>
+        <item name="colorOnSecondary">@android:color/white</item>
+        <item name="android:statusBarColor">@color/escom_azul</item>
+    </style>
+    
+    <!-- Tema Base (por defecto usa IPN) -->
+    <style name="Theme.ExamenFinal" parent="Theme.ExamenFinal.IPN" />
+</resources>
